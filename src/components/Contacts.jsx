@@ -2,6 +2,8 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
+
 
 
 
@@ -28,6 +30,9 @@ const Contacts = () => {
           </a>
           <a href="mailto:timmynamthai@gmail.com" className="text-gray-800 hover:text-gray-600 transition-colors">
             <IoMail size={40} />
+          </a>
+          <a href="https://linkedin.com/in/timmynam-thai" target="_blank" rel='noopener noreferrer'>
+            <FaLinkedin size={40} className="text-gray-800 hover:text-blue-700 transition-colors" />
           </a>
         </div>
 
