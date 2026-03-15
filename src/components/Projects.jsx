@@ -1,7 +1,7 @@
 import React from "react";
-import Capture from "../assets/Capture.png";
+import Capture from "../assets/Capture.PNG";
 import Matcha from "../assets/matcha.png";
-import Philanthropy from "../assets/vasaphilanthropy.png";
+import Philanthropy from "../assets/vasaphilanthropy.PNG";
 
 
 const Projects = () => {
