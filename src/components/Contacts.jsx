@@ -21,9 +21,9 @@ const Contacts = () => {
         <p className="text-center text-lg md:text-xl text-gray-700">
           want to get to know me? let's connect!
         </p>
-        <div id='contact-icons' className="flex justify-center gap-6 mt-8">
+        <div id="contact-icons" className="flex flex-wrap justify-center gap-6 mt-8">
           <a href="https://instagram.com/timmyqthai" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#d62976] transition-colors">
-            <FaInstagram size={40} />
+            <FaInstagram size={36} className="sm:scale-100" />
           </a>
           <a href="https://github.com/timmynam" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition-colors">
             <FaGithubAlt size={40} />

@@ -3,7 +3,6 @@ import Capture from "../assets/Capture.PNG";
 import Matcha from "../assets/matcha.png";
 import Philanthropy from "../assets/vasaphilanthropy.PNG";
 
-
 const Projects = () => {
   const projects = [
     {
@@ -19,7 +18,8 @@ const Projects = () => {
       title: "Match-a Matcha!",
       tech: "HTML, CSS, JavaScript",
       link: "https://strawbina.github.io/matchaa/",
-      description: "A fun and interactive personality quiz that matches users with a type of matcha based on their answers.",
+      description:
+        "A fun and interactive personality quiz that matches users with a type of matcha based on their answers.",
     },
     {
       image: Philanthropy,
@@ -41,39 +41,36 @@ const Projects = () => {
           <span>/ </span>
           <h2 className="relative inline-block">projects</h2>
         </div>
-        
-        <div className="flex flex-wrap justify-center gap-8">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, idx) => (
             /* Anchor tag so the card is clickable */
-            <a 
-              key={idx} 
-              href={project.link} 
-              target="_blank" 
+            <a
+              key={idx}
+              href={project.link}
+              target="_blank"
               rel="noopener noreferrer"
               className="block no-underline group"
             >
-              <div
-                className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-72 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl h-full border border-transparent hover:border-green-200"
-                style={{ minHeight: 420 }}
-              >
+              <div className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center w-full max-w-sm mx-auto transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border border-transparent hover:border-green-200">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="rounded-md mb-4 object-cover grayscale-[20%] group-hover:grayscale-0 transition-all"
                   style={{ width: "100%", height: 160, objectFit: "cover" }}
                 />
-                
+
                 <h3 className="font-bold text-xl mb-1 text-gray-800 group-hover:text-green-800 transition-colors">
                   {project.title}
                 </h3>
-                
+
                 <div
                   className="italic text-gray-500 mb-2"
                   style={{ fontSize: "1rem" }}
                 >
                   {project.tech}
                 </div>
-                
+
                 <p
                   className="text-center text-gray-700"
                   style={{

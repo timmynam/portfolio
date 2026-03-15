@@ -8,10 +8,6 @@ import { TbSql } from "react-icons/tb";
 import { FaFigma } from "react-icons/fa";
 import { FaC } from "react-icons/fa6";
 
-
-
-
-
 const Skills = () => {
   return (
     <section
@@ -24,13 +20,13 @@ const Skills = () => {
           <h2 className="relative inline-block">skills</h2>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-20 text-6xl text-green-700">
+        <div className="flex flex-wrap justify-center gap-8 text-4xl sm:text-5xl md:text-6xl text-green-700">
           <span className="hover:text-yellow-400 transition-colors cursor-pointer">
             <IoLogoJavascript />
           </span>
-          <span className="hover:text-blue-500 hover:scale-125  transition-all cursor-pointer">
+          <span className="hover:text-blue-500 hover:scale-125 transition-all cursor-pointer">
             <FaCss />
-            </span>
+          </span>
           <span className="hover:text-gray-400 hover:scale-125  transition-all cursor-pointer">
             <FaGithub />
           </span>
@@ -40,16 +36,15 @@ const Skills = () => {
           <span className="hover:text-blue-400 hover:scale-125  transition-all cursor-pointer">
             <FaPython />
           </span>
-          <span className='hover:text-blue-600 hover:scale-125  transition-all cursor-pointer'>
+          <span className="hover:text-blue-600 hover:scale-125  transition-all cursor-pointer">
             <TbSql />
           </span>
-          <span className ='hover:text-pink-500 hover:scale-125     transition-all cursor-pointer`'>
+          <span className="hover:text-pink-500 hover:scale-125 transition-all cursor-pointer">
             <FaFigma />
           </span>
-          <span className='hover:text-blue-300 hover:scale-125 transition-all cursor-pointer'>
+          <span className="hover:text-blue-300 hover:scale-125 transition-all cursor-pointer">
             <FaC />
           </span>
-        
         </div>
       </div>
     </section>
